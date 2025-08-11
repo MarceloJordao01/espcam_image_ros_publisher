@@ -1,0 +1,7 @@
+#pragma once
+enum class AppState {
+  WAITING_AGENT,
+  AGENT_AVAILABLE,
+  AGENT_CONNECTED,
+  AGENT_DISCONNECTED
+};
